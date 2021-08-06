@@ -1,0 +1,177 @@
+:root {
+    --primary-color: #bea67c;
+    --secondary-color: #050505;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #464646;
+    --font-title: font-title;
+    --font-text: font-text;
+    --heigt-header: 80px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: font-title;
+    src: url(../Fonts/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: font-text;
+    src: url(../Fonts/Proxima-Nova-Regular.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-text);
+    line-height: 1;
+    color: var(--text-color);
+}
+
+/* Button */
+.btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 256px;
+    height: 49px;
+    margin: 0 auto;
+    padding: 16px 45px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-family: var(--font-title);
+    letter-spacing: 0.4rem;
+    border: 2px solid var(--white-color);
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__container{
+    margin: auto;
+    background-color: white;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    max-width: calc(100% - 16px);
+}
+
+.modal__video{
+    width: 100%;
+    height: 100%;
+}
+
+.modal__open{
+    display: flex;
+}
+
+/* Animation CSS */
+@keyframes scale {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+@keyframes dropdown {
+    from{
+        opacity: 0;
+        height: 0px;
+    }
+    to{
+        opacity: 1;
+        height: 100%;
+    }
+}
+
+@keyframes btn {
+    25%{
+        border-top: 2px solid var(--primary-color);
+    }
+    50%{
+        border-right: 2px solid var(--primary-color);
+    }
+    75%{
+        border-bottom: 2px solid var(--primary-color);
+    }
+    100%{
+        border-left: 2px solid var(--primary-color);
+    }
+}
+
+@keyframes arrow {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(12px);
+    }
+}
+
+@keyframes arrow2 {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(12px);
+    }
+}
+
+@keyframes bounce { 
+    25%{
+        transform: rotate(0deg);
+    }
+     
+    50%{
+        transform: rotate(10deg);
+    } 
+
+    75%{
+        transform: rotate(0deg);
+    }
+     
+    100%{
+        transform: rotate(-10deg);
+    }  
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

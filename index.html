@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/reponsive.css">
+</head>
+<body>
+    <header>
+        <section class="grid app-header">
+            <div class="header__navbar">
+                <div class="header__navbar-logo">
+                    <a href="#" class="header__navbar-logo-link">
+                        <img src="./asset/img/logo.png" alt="Logo" class="header__navbar-logo-img">
+                    </a>
+                </div>
+                
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link header__navbar-item-link-active">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#products" class="header__navbar-item-link">
+                            PRODUCTS
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#about" class="header__navbar-item-link">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#gallery" class="header__navbar-item-link">
+                            GALLERY
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#news" class="header__navbar-item-link">
+                            NEWS
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header__navbar-lang">
+                    <div class="header__navbar-lang-choose">
+                        <span></span>
+                        <img src="./asset/img/drop_down.png" alt="" class="header__navbar-lang-img">
+                    </div>
+                    <ul class="header__navbar-lang-list">
+                        <li class="header__navbar-lang-item">
+                            <span class="header__navbar-lang-link show">EN</span>
+                        </li>
+                        <li class="header__navbar-lang-item">
+                            <span class="header__navbar-lang-link">VN</span>
+                        </li>
+                        <li class="header__navbar-lang-item">
+                            <span class="header__navbar-lang-link">JP</span>
+                        </li>
+                        <li class="header__navbar-lang-item">
+                            <span class="header__navbar-lang-link">FR</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__navbar-menu">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="nav__overlay"></div>
+                <nav class="nav__tablet-mobile">
+                    <span class="nav__mobile-close">
+                        <ion-icon name="close-circle-outline"></ion-icon>
+                    </span>
+                    <ul class="nav__tablet-mobile-list">
+                        <li>
+                            <a href="#" class="nav__tablet-mobile-link  active">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#products" class="nav__tablet-mobile-link ">PRODUCTS</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__tablet-mobile-link ">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="nav__tablet-mobile-link ">GALLERY</a>
+                        </li>
+                        <li>
+                            <a href="#news" class="nav__tablet-mobile-link ">NEWS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="main__slider">
+            <img src="./asset/img/slider.jpg" alt="" class="main__slider-img active">
+            <img src="./asset/img/slider2.jpg" alt="" class="main__slider-img ">
+            <img src="./asset/img/slider3.jpg" alt="" class="main__slider-img ">
+            <div class="main__slider-content">
+                <h3 class="main__slider-content-title">WOODER</h3>
+                <a href="" class="btn main__slider-content-btn">
+                    LEARN MORE
+                    <img src="./asset/img/arrow_right.png" alt="" class="main__slider-content-img">
+                </a>
+            </div>  
+            <div class="grid slider__grid">
+                <div class="slider__content">
+                    <div class="slider__page">
+                        <p class="slider__page-number">01</p>
+                        <span class="slider__page-dot slider__page-dot-active"></span>
+                        <span class="slider__page-dot"></span>
+                        <span class="slider__page-dot"></span>
+                    </div>
+                    <div class="slider__img">
+                        <img src="./asset/img/mouse.png" alt="" class="slider__footer-img-mouse">
+                        <img src="./asset/img/arrow_bottom.png" alt="" class="slider__footer-img-arrow">
+                    </div>
+                    <div class="slider__control">   
+                        <span class="slider__control-btn prev-btn">
+                            <img src="./asset/img/arrow_left.png" alt="" class="slider__control-img">
+                        </span>
+                        <span class="slider__control-btn next-btn">
+                            <img src="./asset/img/arrow_right.png" alt="" class="slider__control-img">
+                        </span>   
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="products" class="grid wide main__products">           
+                <div class="products__content">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="section__info section__center">
+                                <div class="section__info-content">
+                                    <h3 class="section__info-heading">FURNITURE</h3>
+                                    <span class="section__info-sub-heading">
+                                        Wooder utilizes materials otherwise left behind, rendered useless in their original intent. By creating new pieces made of reclaimed barnwood
+                                    </span>
+                                    <a href="" class="section__info-link">
+                                        LEARN MORE
+                                        <img src="./asset/img/arrow_more.png" alt="" class="section__info-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6  m-12 c-12">
+                            <div class="section__img">
+                                <img src="./asset/img/product1.jpg" alt="" class="section__img-link">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products__content">
+                    <div class="row">
+                        <div class="col l-6  m-12 c-12">
+                            <div class="section__info section__center">
+                                <div class="section__info-content">
+                                    <h3 class="section__info-heading">DECOR</h3>
+                                    <span class="section__info-sub-heading">
+                                        We make all types of wooden decor as per design given by Architect,Interior designer, contractor which is suitable
+                                        your premises                        
+                                    </span>
+                                    <a href="" class="section__info-link">
+                                        LEARN MORE
+                                        <img src="./asset/img/arrow_more.png" alt="" class="section__info-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6  m-12 c-12">
+                            <div class="section__img">
+                                <img src="./asset/img/product2.jpg" alt="" class="section__img-link">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products__quality">
+                    <div class="section__info products__quality-info">
+                        <div class="section__info-content">
+                            <h3 class="section__info-heading products__quality-heading">WOODER - IS QUALITY</h3>
+                            <span class="section__info-sub-heading">
+                                We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.                       
+                            </span>
+                        </div>
+                    </div>
+                    <div class="products__quality-row">
+                        <div class="products__quality-col">
+                            <div class="products__quality-content">
+                                <div class="products__quality-img">
+                                    <img src="./asset/img/quality1.jpg" alt="" class="products__quality-img-link">
+                                    <div class="products__quality-img-btn">
+                                        <img src="./asset/img/play.png" alt="" class="products__quality-img-play">
+                                    </div>                                   
+                                </div>
+                            </div>
+                            <p class="products__quality-text">
+                                Innovative Design
+                            </p>
+                        </div>
+                        <div class="products__quality-col">
+                            <div class="products__quality-content">
+                                <div class="products__quality-img">
+                                    <img src="./asset/img/quality2.jpg" alt="" class="products__quality-img-link">
+                                    <div class="products__quality-img-btn">
+                                        <img src="./asset/img/play.png" alt="" class="products__quality-img-play">
+                                    </div>
+                                </div>                               
+                            </div>
+                            <p class="products__quality-text">
+                                High-level Skills
+                            </p>
+                        </div>
+                        <div class="products__quality-col">
+                            <div class="products__quality-content">
+                                <div class="products__quality-img">
+                                    <img src="./asset/img/quality3.jpg" alt="" class="products__quality-img-link">
+                                    <div class="products__quality-img-btn">
+                                        <img src="./asset/img/play.png" alt="" class="products__quality-img-play">
+                                    </div>
+                                </div>                              
+                            </div>
+                            <p class="products__quality-text">
+                                Quality Products
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="main__banner">           
+            <img src="./asset/img/banner.jpg" alt="" class="main__banner-img">
+            <div class="grid wide main__banner-intro">                
+                <div class="section__info">
+                    <div class="section__info-content section__info-content-max-width">
+                        <h3 class="section__info-heading main__banner-intro-heading">
+                            WE DO THE DESIGN OF ANY COMPLEXITY
+                        </h3>
+                        <span class="section__info-sub-heading main__banner-intro-subheading">
+                            This is a team of professionals that make the furniture and wood décor high standard. Creating modern designs. 
+                            Adhering to the global quality standards. And we are doing work with love.
+                        </span>
+                    </div>
+                </div>
+                <a class="btn main__banner-intro-btn">
+                    <img src="./asset/img/watch.png" alt="" class="main__banner-intro-img">
+                    WATCH VIDEO
+                </a>  
+            </div>   
+        </section>
+
+        <section id="about" class="grid wide main__about">     
+            <div class="about__content">
+                <div class="row">
+                    <div class="col l-6  m-12 c-12">
+                        <div class="section__info section__center">
+                            <div class="section__info-content">
+                                <h3 class="section__info-heading">ABOUT US</h3>
+                                <span class="section__info-sub-heading">
+                                    We are a team of professionals in the wood processing and the creation of wooden furniture of the highest class
+                                </span>
+                                <a href="" class="section__info-link">
+                                    LEARN MORE
+                                    <img src="./asset/img/arrow_more.png" alt="" class="section__info-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6  m-12 c-12">
+                        <div class="section__img">
+                            <img src="./asset/img/about.png" alt="" class="section__img-link">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="main__gallery">
+            <div class="grid wide">
+                <div class="section__info">
+                    <div class="section__info-content section__info-content-max-width">
+                        <h3 class="section__info-heading main__gallery-heading">
+                            GALLERY
+                        </h3>
+                        <span class="section__info-sub-heading main__gallery-subheading">
+                            We are a team of professionals in the wood processing and the creation of wooden furniture of the highest class
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-4  m-6 c-12">
+                        <div class="row">
+                            <div class="col l-12  m-12 c-12">
+                                <div class="main__gallery-item main__gallery-item-half">
+                                    <img src="./asset/img/gallery1.jpg" alt="" class="main__gallery-img">
+                                </div>
+                            </div>
+                            <div class="col l-12  m-12 c-12">
+                                <div class="main__gallery-item main__gallery-item-half">
+                                    <img src="./asset/img/gallery2.jpg" alt="" class="main__gallery-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4  m-6 c-12">
+                        <div class="row">
+                            <div class="col l-12  m-12 c-12">
+                                <div class="main__gallery-item">
+                                    <img src="./asset/img/gallery3.jpg" alt="" class="main__gallery-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4  m-12 c-12">
+                        <div class="row">
+                            <div class="col l-12  m-6 c-12">
+                                <div class="main__gallery-item main__gallery-item-half">
+                                    <img src="./asset/img/gallery4.jpg" alt="" class="main__gallery-img">
+                                </div>
+                            </div>
+                            <div class="col l-12  m-6 c-12">
+                                <div class="main__gallery-item main__gallery-item-half">
+                                    <img src="./asset/img/gallery5.jpg" alt="" class="main__gallery-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="main__news">
+            <div class="grid wide">
+                <div class="section__info">
+                    <div class="section__info-content section__info-content-max-width">
+                        <h3 class="section__info-heading main__news-heading">
+                            NEWS
+                        </h3>
+                        <span class="section__info-sub-heading main__news-subheading">
+                            We are a team of professionals in the wood processing and the creation of wooden furniture of the highest class
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="main__news-item">
+                            <div class="main__news-frames">
+                                <img src="./asset/img/new1.jpg" alt="" class="main__news-img">
+                            </div>
+                            <h3 class="main__news-title">
+                                Where does it come from?
+                            </h3>
+                            <span class="main__news-text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literatur
+                            </span>
+                        </div>
+                        
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="main__news-item">
+                            <div class="main__news-frames">
+                                <img src="./asset/img/new2.jpg" alt="" class="main__news-img">
+                            </div>
+                            <h3 class="main__news-title">
+                                There are many variations of passage
+                            </h3>
+                            <span class="main__news-text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literatur
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="main__news-item">
+                            <div class="main__news-frames">
+                                <img src="./asset/img/new3.jpg" alt="" class="main__news-img">
+                            </div>
+                            <h3 class="main__news-title">
+                                It is a long established fact that a reader
+                            </h3>
+                            <span class="main__news-text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literatur
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__slider-footer">
+            <div class="slider__footer">
+                <div class="slider__footer-item">
+                    <img src="./asset/img/slide__footer1.jpg" alt="" class="slider__footer-img">
+                </div>
+                <div class="slider__footer-item">
+                    <img src="./asset/img/slide__footer2.jpg" alt="" class="slider__footer-img">
+                </div>
+                <div class="slider__footer-item">
+                    <img src="./asset/img/slide__footer3.jpg" alt="" class="slider__footer-img">
+                </div>
+                <div class="slider__footer-item">
+                    <img src="./asset/img/slide__footer4.jpg" alt="" class="slider__footer-img">
+                </div>
+            </div>
+        </section>
+
+        <div class="modal">
+            <div class="modal__container">
+                <iframe class="modal__video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section class="app-footer">
+            <div class="grid wide">
+                <div class="footer__content">
+                    <span class="footer__license">
+                        © 2016 WOODER, Demo by CFD
+                    </span>
+                    <div class="footer__logo">
+                        <img src="./asset/img/logo.png" alt="" class="footer__img">
+                    </div>
+                    <span class="footer__back">
+                        BACK TO TOP
+                    </span>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./asset/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script  cript nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
