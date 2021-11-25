@@ -19,17 +19,9 @@
     height: var(--heigt-header);
 }
 
-.header__navbar-logo{
-
-}
-
 .header__navbar-logo-link{
     display: block;
     line-height: 0;
-}
-
-.header__navbar-logo-img{
-
 }
 
 .header__navbar-list{
@@ -158,10 +150,6 @@
     color: #fff;
     margin-left: 20px;
     display: none;
-}
-
-.main{
-    
 }
 
 /* Slider CSS */
@@ -346,9 +334,6 @@
 }
 
 /* Products CSS */
-.main__products{
-    
-}
 
 .products__content{
     padding-top: 90px;
@@ -438,10 +423,6 @@
     animation: arrow linear 1s;
     animation-direction: alternate;
     animation-fill-mode: forwards;
-}
-
-.section__info-img{
-    
 }
 
 .section__img{
@@ -623,10 +604,6 @@
     margin-bottom: 50px;
 }
 
-.main__banner-intro-btn{
-
-}
-
 .main__banner-intro-btn:hover{
     animation: btn ease-in-out 1s;
     animation-direction: alternate;
@@ -643,10 +620,6 @@
 }
 
 /* About CSS */
-
-.main__about{
-    
-}
 
 .about__content{
     padding: 90px 0;
@@ -719,10 +692,6 @@
     padding: 90px 0;
 }
 
-.main__news-heading{
-
-}
-
 .main__news-subheading{
     color: var(--black-color);
 }
@@ -788,25 +757,15 @@
     color: var(--black-color);
 }
 
-.main__slider-footer{
-   
-}
-
 .slider__footer{
-    display: flex;
     max-width: 100%;
-    overflow-x: auto;
 }
 
 .slider__footer-item{
     height: 356px;
-    flex-shrink: 0;
     position: relative;
     overflow: hidden;
-}
-
-.slider__footer-item:not(:first-child){
-    margin-left: 24px;
+    margin: 0 24px;
 }
 
 .slider__footer-img{
@@ -840,10 +799,6 @@
     flex: 1;
     margin: 0 auto;
     text-align: center;
-}
-
-.footer__img{
-    
 }
 
 .footer__back{
